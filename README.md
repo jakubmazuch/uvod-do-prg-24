@@ -1,1 +1,1 @@
-# uvod-do-prg-24
+# Úvod do programování
