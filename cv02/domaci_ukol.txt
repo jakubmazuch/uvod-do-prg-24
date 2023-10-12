@@ -1,0 +1,9 @@
+Vytvorte program pro zaokrouhlovani realny cisel. Uvazujte i cisla zaporna.
+
+Priklad:
+INPUT
+a= 13.568842
+b= 2
+
+OUTPUT
+13.57
