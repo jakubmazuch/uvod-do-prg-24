@@ -1,0 +1,1 @@
+Dne 19.10.2023 cvičení odpoadlo z důvodu Sportovního dne.
