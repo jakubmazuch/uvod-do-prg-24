@@ -54,4 +54,4 @@
 4. Zapsat text opačně
 
 ### Cvičení 6 (9. listopad 2023); Téma: Funkce
-1. Bankomat pomocí cyklů
+1. Bankomat pomocí cyklů [formátované řetězce](https://naucse.python.cz/lessons/beginners/fstring/)
