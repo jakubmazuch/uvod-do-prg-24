@@ -55,3 +55,23 @@
 
 ### Cvičení 6 (9. listopad 2023); Téma: Funkce
 1. Bankomat pomocí cyklů [formátované řetězce](https://naucse.python.cz/lessons/beginners/fstring/)
+2. Hledání maxima a minima – Vytvořte program, který nalezne maximum a minimum v zadaném seznamu čísel s použitím cyklů a podmínek
+3. Faktoriál pomocí cyklů – Vytvořte program, který po zadání přirozeného čísla vypíše jeho faktoriál. Využijte vhodný cyklus.
+4.	Eratosthenovo síto – Vytvořte program, který vypíše všechna prvočísla, která jsou menší, než zadaný limit.
+5.	Třídění – Vytvořte program, který seřadí/setřídí seznam.
+6.	Grid – Vytvořte za pomoci Turtle graphics program, který vykreslí … 
+    a.  Čtvercový grid,
+    b.	Obdélníkový grid,
+    c.	**Trojúhleníkový grid,
+    d.	**Šestiúhleníkový grid.
+
+### Cvičení 7 (16. listopadu 2023); Téma: Rekurze
+1. 
+
+## Zápočtové úkoly
+1. Vykreslete síť kartografického zobrazení (viz [matematická kartografie](https://web.natur.cuni.cz/~bayertom/index.php/teaching/matemat-metody-v-kartografii)) se zadáním parametrů u_min, u_max, v_min, v_max
+Součastí programu by měly být možnosti nastavení:
+*	Rozsahu zeměpisné šířky / délky
+*	Kroku poledníku a rovnoběžek
+*	Rozsahu vzorkování (= neprojeví se u polárních zobrazení, ale u azimutuálních zobrazení)
+
