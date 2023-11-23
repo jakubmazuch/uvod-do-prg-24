@@ -1,10 +1,12 @@
 import turtle
 
+
 def kresli_sestiuhelnik(strana):
     """Funkce pro kreslení jednoho šestiúhelníka."""
     for _ in range(6):
         turtle.forward(strana)
         turtle.left(60)
+
 
 def posun_pro_dalsi_sestiuhelnik(strana, radek, sloupec):
     """Funkce pro posunutí želvy na pozici pro kreslení dalšího šestiúhelníka."""
@@ -14,12 +16,14 @@ def posun_pro_dalsi_sestiuhelnik(strana, radek, sloupec):
     turtle.goto(x, -y)
     turtle.pendown()
 
+
 def kresli_sestiuhelnikovy_grid(strana, radky, sloupce):
     """Funkce pro kreslení gridu šestiúhelníků."""
     for r in range(radky):
         for s in range(sloupce - (r // 2)):
             posun_pro_dalsi_sestiuhelnik(strana, r, s)
             kresli_sestiuhelnik(strana)
+
 
 # Nastavení Turtle
 turtle.speed('fastest')
@@ -28,7 +32,8 @@ turtle.goto(0, 0)  # Startovní pozice
 turtle.pendown()
 
 # Kreslení šestiúhelníkového gridu
-kresli_sestiuhelnikovy_grid(30, 5, 4)  # Velikost strany šestiúhelníka, počet řádků, počet sloupců
+# Velikost strany šestiúhelníka, počet řádků, počet sloupců
+kresli_sestiuhelnikovy_grid(30, 5, 4)
 
 # Ukončení Turtle
 turtle.hideturtle()
